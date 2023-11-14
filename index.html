@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav id="desktop-nav">
+        <div class="logo">Simba</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <nav id="hamburger-nav">
+        <div class="logo">Simba</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#home" onclick="toggleMenu()">Home</a></li>
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="./images/Home.png" alt="">
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello, I'm</p>
+            <h1 class="title">Simba Asamoah</h1>
+            <p class="section__text__p2">Gen Z Associate</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('./Simba_Asamoahv2.pdf')">Download CV</button>
+                <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact Me</button>
+            </div>
+            <div id="socials-container">
+                <img src="./icons8-linkedin-sf-regular/icons8-linkedin-480.png" alt="" 
+                class="icon" onclick="location.href='https://www.linkedin.com/in/simba-asamoah-0729a6195?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'">
+                <img src="./icons8-instagram-sf-regular/icons8-instagram-480.png" alt="" 
+                class="icon" onclick="location.href='https://instagram.com/esisimba?igshid=NWN6M2I1Mjk4MWVm'">
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <p class="section__text__p1">Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img src="./images/Home 1.jpg" alt="" class="about-pic">
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="./icons8-award-ios-16-filled/icons8-award-100.png" alt="" class="icon">
+                        <h3>Experience</h3>
+                        <p>5+ years <br> Advanced Proficiency in Word, Excel and PowerPoint</p>
+                    </div>
+                    <div class="details-container">
+                        <img src="./icons8-education-ios-16-filled/icons8-education-100.png" alt="" class="icon">
+                        <h3>Education</h3>
+                        <p>BSc. Business Administration <br>Ashesi University College</p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p>I'm Simba, a Corporate Gen Z associate of TikTok. I love expressing 
+                        myself through music and I'm committed to bringing innovation and creativity to every project I touch.
+                        Ready to create, connect and celebrate digital culture at TikTok? Let's take the world by storm.</p>
+                </div>
+            </div>
+        </div>
+        <img src="./icons8-arrow-ios-16-filled/icons8-arrow-100.png" alt="" class="icon arrow" onclick="location.href='./#experience'">
+    </section>
+
+    <section id="experience">
+        <p class="section__text__p1">Here's</p>
+        <h1 class="title">My Experience</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Digital Marketing</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./icons8-instagram-check-mark-ios-16-filled/icons8-instagram-check-mark-100.png" alt="" class="icon">
+                            <div>
+                                <h3>Content Creation and Social Media Account Management</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./icons8-instagram-check-mark-ios-16-filled/icons8-instagram-check-mark-100.png" alt="" class="icon">
+                            <div>
+                                <h3>Analyse account insights to generate reports and make improvements</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./icons8-instagram-check-mark-ios-16-filled/icons8-instagram-check-mark-100.png" alt="" class="icon">
+                            <div>
+                                <h3>Creation of Social Media Strategy with up to date latest trends</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Ashesi Venture Incubator</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./icons8-instagram-check-mark-ios-16-filled/icons8-instagram-check-mark-100.png" alt="" class="icon">
+                            <div>
+                                <h3>Developed and Pitched Viable Business Venture</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./icons8-instagram-check-mark-ios-16-filled/icons8-instagram-check-mark-100.png" alt="" class="icon">
+                            <div>
+                                <h3>Applying essential business building blocks</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./icons8-instagram-check-mark-ios-16-filled/icons8-instagram-check-mark-100.png" alt="" class="icon">
+                            <div>
+                                <h3>Necessary skills to start and operate a business</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="./icons8-arrow-ios-16-filled/icons8-arrow-100.png" alt="" class="icon arrow" onclick="location.href='./#contact'">
+    </section>
+
+    <section id="contact">
+        <p class="section__text__p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="./icons8-gmail-windows-11-outline/icons8-gmail-144.png" alt="" class="icon contact-icon email-icon">
+                <p><a href="mailto:simba.asamoah@gmial.com">simba.asamoah@gmail.com</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img src="./icons8-linkedin-sf-regular/icons8-linkedin-480.png" alt="" class="icon contact-icon">
+                <p><a href="https://www.linkedin.com/in/simba-asamoah-0729a6195?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'">LinkedIn</a></p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <nav>
+            <!-- <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div> -->
+            <nav>
+                <p>Copyright &#169; 2023 Asamoah. All Rights Reserved</p>
+            </nav>
+        </nav>
+    </footer>
+
+
+
+    <script src="main.js"></script>
+</body>
+</html>
